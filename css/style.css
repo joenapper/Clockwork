@@ -69,7 +69,7 @@ nav ul li a:hover::after {
 }
 
 /* Hero */
-.hero {
+#canvas {
     background: radial-gradient(lightblue, blue);
     height: 60vh;
     position: relative;
@@ -94,17 +94,17 @@ nav ul li a:hover::after {
     border: 6px solid rgba(255, 255, 255, 0.8)
 }
 
-.box div:nth-child(1) {
+/* .box div:nth-child(1) {
     top: 12%;
     left: 42%;
     animation: animate 10s linear infinite
-}
+} */
 
-.box div:nth-child(2) {
+/* .box div:nth-child(2) {
     top: 70%;
     left: 50%;
     animation: animate 7s linear infinite
-}
+} */
 
 .box div:nth-child(3) {
     top: 17%;
@@ -112,11 +112,11 @@ nav ul li a:hover::after {
     animation: animate 9s linear infinite
 }
 
-.box div:nth-child(4) {
+/* .box div:nth-child(4) {
     top: 20%;
     left: 60%;
     animation: animate 10s linear infinite
-}
+} */
 
 .box div:nth-child(5) {
     top: 67%;
@@ -128,19 +128,19 @@ nav ul li a:hover::after {
     top: 80%;
     left: 70%;
     animation: animate 12s linear infinite
-}
+} 
 
 .box div:nth-child(7) {
     top: 60%;
     left: 80%;
     animation: animate 15s linear infinite
-}
+} 
 
-.box div:nth-child(8) {
+/* .box div:nth-child(8) {
     top: 32%;
     left: 25%;
     animation: animate 16s linear infinite
-}
+} */
 
 .box div:nth-child(9) {
     top: 90%;
@@ -148,11 +148,11 @@ nav ul li a:hover::after {
     animation: animate 9s linear infinite
 }
 
-.box div:nth-child(10) {
+/* .box div:nth-child(10) {
     top: 20%;
     left: 80%;
     animation: animate 5s linear infinite
-}
+} */
 
 @keyframes animate {
     0%{
@@ -163,6 +163,10 @@ nav ul li a:hover::after {
         transform: scale(1.0) translate(-90px) rotate(360deg);
         opacity: 0;
     }
+}
+
+img {
+    transform: translate(-50%, -50%)  
 }
 
 
