@@ -53,7 +53,19 @@ nav ul li a {
     cursor: pointer
 }
 
+nav ul li a::after {
+    content:'';
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: red;
+    transition: width .4s
+}
 
+nav ul li a:hover::after {
+    width: 100%;
+    transition: .4s;
+}
 
 /* Hero */
 
