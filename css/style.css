@@ -1,3 +1,23 @@
+/* General CSS */
+html,
 body {
-    background-color: red
+    margin: 0;
+    padding: 0
+}
+
+section {
+    width: 60%;
+    padding: 0 20%
+}
+
+h1 {
+    font-size: 3em
+}
+
+h2 {
+    font-size: 2em
+}
+
+p {
+    font-size: 1.15em
 }
