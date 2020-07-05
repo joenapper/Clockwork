@@ -68,5 +68,10 @@ nav ul li a:hover::after {
 }
 
 /* Hero */
+.hero {
+    background: radial-gradient(lightblue, blue);
+    height: 60vh;
+    width: 100vw; 
+}
 
 
