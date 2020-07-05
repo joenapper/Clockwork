@@ -21,3 +21,40 @@ h2 {
 p {
     font-size: 1.15em
 }
+
+/* Header / Nav */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    padding: 2em 15%;
+    text-transform: uppercase;
+    color: black;
+    position: fixed; 
+}
+
+nav {
+    
+    background-color: pink
+}
+
+nav ul {
+    display: flex;
+    list-style: none
+}
+
+nav ul li {
+    padding-left: 2em
+}
+
+nav ul li a {
+    text-decoration: none;
+    cursor: pointer
+}
+
+
+
+/* Hero */
+
+
