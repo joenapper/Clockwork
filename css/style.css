@@ -104,8 +104,21 @@ nav ul li a:hover::after {
 }
 
 #hero-text {
-    /* position: absolute;
-    top: 60%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f4f4;
+    height: 40%;
+    width: 60%;
+    padding: 0 20%;
+    margin: 0;
+}
+
+#hero-text p {
+    padding: 0;
+    margin: 0;
+    font-size: 1.25em;
+    color: #1A224B
     
 }
 
