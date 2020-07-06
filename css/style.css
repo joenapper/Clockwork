@@ -30,14 +30,12 @@ header {
     width: 70%;
     padding: 2em 15%;
     text-transform: uppercase;
-    color: black;
+    color: #fff;
     position: fixed; 
     z-index: 1;
-}
-
-nav {
-    
-    background-color: pink
+    background-color: lightblue;
+    opacity: 0.5;
+    top: 0 
 }
 
 nav ul {
@@ -51,7 +49,8 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    cursor: pointer
+    cursor: pointer;
+    color: #fff;
 }
 
 nav ul li a::after {
@@ -69,20 +68,14 @@ nav ul li a:hover::after {
 }
 
 /* Hero */
-#canvas1 {
+#particles-js {
     position: absolute;
-    top: 0; left: 0;
+    top: 0;
+    left: 0;
     width: 100%;
-    height: 50%;
+    height: 60%;
     background: #1A224B;
 }
-
-/*.random{/* background: radial-gradient(lightblue, blue); */
-    /* background-color: black;
-    height: 60vh;
-    position: relative;
-    overflow: hidden; *//*} */
-
 
 .title {
     font-family: Arial, Helvetica, sans-serif;
