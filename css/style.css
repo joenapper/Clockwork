@@ -26,6 +26,18 @@ p {
     font-size: 1.15em
 }
 
+.c-color {
+    color: #ffbd59;
+    margin: 0;
+    padding: 0
+}
+
+.subheader {
+    font-size: 3em;
+    margin: 0;
+    padding: 0
+}
+
 /* Header ---------------------------------- */
 header {
     width: 60%;
@@ -235,10 +247,15 @@ nav {
     color: #f4f4f4
 } 
 
+.services-container h2 {
+    text-align: center
+}
+
 .row {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    text-align: center
+    text-align: center;
+    padding-top: 60px;
 }
 
 .row-2 {
