@@ -270,7 +270,6 @@ nav {
     color: #1A224B
 } 
 
-
 .services-row {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -285,6 +284,15 @@ nav {
     width: 65;
     padding: 0 17.5%;
     padding-top: 80px;
+}
+
+#service-select h3 {
+    text-transform: uppercase;
+   
+}
+
+#service-select p {
+    margin: 10px 0
 }
 
 /* Steps ---------------------------------- */
