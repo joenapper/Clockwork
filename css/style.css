@@ -7,6 +7,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Saira, sans-serif;
+    background-color: #f4f4f4
 }
 
 section {
@@ -50,6 +51,14 @@ p {
 
 .center {
     text-align: center
+}
+
+.line {
+    width: 60%;
+    margin: 0 20%;
+    height: 2px;
+    background-color: #1A224B;
+    border-radius: 5px 
 }
 
 /* Header ---------------------------------- */
@@ -254,8 +263,9 @@ nav {
 
 /* Services ---------------------------------- */
 #services {
-    background-color: #1A224B;
-    color: #f4f4f4
+    background-color: #f4f4f4;
+    /* background-color: #1A224B; */
+    color: #1A224B
 } 
 
 
@@ -277,7 +287,25 @@ nav {
 
 /* Steps ---------------------------------- */
 #steps {
-    background-color: #f4f4f4
+    background-color: #ffbd59
 }
 
+
+/* Partners ---------------------------------- */
+#partners {
+    background-color: #ffbd59;
+    display: flex
+}
+
+.partner {
+    height: 180px;
+    width: 180px;
+    border-radius: 50%
+}
+
+/* Partners ---------------------------------- */
+#contact {
+    background-color: #f4f4f4
+
+}
 
