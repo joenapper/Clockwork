@@ -143,7 +143,20 @@ nav {
         display: block;
     }
 }
+.nav-active {
+    transform: translateX(0);
+}
 
+@keyframes navLinkFade {
+    from{
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
 .burger-toggle .top-line {
     transform: rotate(-45deg) translate(-5px,6px);
 }
