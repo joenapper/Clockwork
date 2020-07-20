@@ -11,7 +11,9 @@ body {
 
 section {
     width: 60%;
-    padding: 0 20%
+    padding: 0 20%;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 h1 {
@@ -36,6 +38,18 @@ p {
     font-size: 3em;
     margin: 0;
     padding: 0
+}
+
+.left {
+    text-align: left
+}
+
+.right {
+    text-align: right
+}
+
+.center {
+    text-align: center
 }
 
 /* Header ---------------------------------- */
@@ -184,8 +198,7 @@ nav {
     transform: rotate(45deg) translate(-5px,-6px);
 }
 
-
-/* Hero */
+/* Hero ---------------------------------- */
 #hero-wrapper {
     position: relative;
     height: 100vh;
@@ -239,32 +252,32 @@ nav {
     color: #1A224B;
 }
 
-/* Services */
+/* Services ---------------------------------- */
 #services {
     background-color: #1A224B;
-    padding-top: 40px;
-    padding-bottom: 40px;
     color: #f4f4f4
 } 
 
-.services-container h2 {
-    text-align: center
-}
 
-.row {
+.services-row {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     text-align: center;
     padding-top: 60px;
 }
 
-.row-2 {
+.services-row-2 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     text-align: center;
     width: 65;
     padding: 0 17.5%;
     padding-top: 80px;
+}
+
+/* Steps ---------------------------------- */
+#steps {
+    background-color: #f4f4f4
 }
 
 
