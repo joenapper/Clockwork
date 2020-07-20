@@ -333,7 +333,21 @@ textarea {
     resize: none
 }
 
+::-webkit-input-placeholder {
+    color: #ffbd59
+}
 
+:-ms-input-placeholder {
+    color: #ffbd59
+}
+
+::-moz-placeholder {
+    color: #ffbd59
+}
+
+:-moz-placeholder {
+    color: #ffbd59
+}
 
 button {
     height: 60px;
