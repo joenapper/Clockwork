@@ -305,9 +305,52 @@ nav {
     border-radius: 50%
 }
 
-/* Partners ---------------------------------- */
+/* Contact ---------------------------------- */
 #contact {
     background-color: #f4f4f4
-
 }
+
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+input,
+textarea {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #1A224B;
+    color: #1A224B;
+    margin-top: 30px;
+    font-size: 1.2em;
+    font-family: Saira, sans-serif
+}
+
+textarea {
+    resize: none
+}
+
+
+
+button {
+    height: 60px;
+    width: 20%;
+    margin-left: 80%; 
+    margin-top: 30px;
+    background-color: #ffbd59;
+    cursor: pointer;
+    color: #1A224B;
+    font-size: 1.2em;
+    font-family: Saira, sans-serif;
+    text-transform: uppercase;
+    border-radius: 5px;
+    font-weight: bold;
+    outline: none;
+    border: none
+}
+
+
 

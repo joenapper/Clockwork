@@ -132,10 +132,13 @@
     <!-- Contact -->
     <section id="contact">
         <h2 class="subheader center"><span class="main-color">Contact</span> Us</h2>
-        <form>
-            <input type="text">
-            <input type="submit" value="Submit">
-        </form>
+            <form>
+                <input type="text" id="companyName" placeholder="Company / Name" oninput="confirmcompanyName.value = companyName.value">
+                <input type="text" id="number" placeholder="Contact Number" oninput="confirmnumber.value = number.value">
+                <input type="text" id="email" placeholder="Email" oninput="confirmemail.value = email.value">
+                <textarea id="overview" placeholder="How can we help you?" oninput="confirmoverview.value = overview.value"></textarea>
+                <button type="submit">Send Message</button>
+            </form>
     </section>
 
     <!-- Footer -->
