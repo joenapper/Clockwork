@@ -29,8 +29,14 @@ p {
     font-size: 1.15em
 }
 
-.c-color {
+.main-color {
     color: #ffbd59;
+    margin: 0;
+    padding: 0
+}
+
+.sec-color {
+    color: #1A224B;
     margin: 0;
     padding: 0
 }
