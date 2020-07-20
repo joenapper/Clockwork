@@ -292,6 +292,16 @@ nav {
     background-color: #ffbd59
 }
 
+.step1,
+.step2,
+.step3 {
+    width: 80%
+}
+
+.step2 {
+    margin-left: 20%
+}
+
 
 /* Partners ---------------------------------- */
 #partners {
