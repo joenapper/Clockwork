@@ -378,7 +378,17 @@ button {
 
 /* Footer ---------------------------------- */
 footer {
-    background-color: #1A224B
+    background-color: #1A224B;
+    color: #f4f4f4
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr)
+}
+
+.footer-right {
+    text-align: right
 }
 
 
