@@ -423,7 +423,17 @@ footer {
     transition: 0.2s
 }
 
+.iconbtn:hover::after {
+    transform: scale(1.3);
+    opacity: 0;
+}
 
+/* YouTube Red */
+.fa-youtube:hover {
+    color: #c4302b
+}
 
-
-
+/* Facebook Blue */
+.fa-facebook:hover {
+    color: #3b5998
+}
