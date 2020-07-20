@@ -85,7 +85,7 @@ nav {
 }
 
 .logo { 
-    
+    color: #ffbd59
 }
 
 .logo a {
@@ -106,7 +106,7 @@ nav {
 .nav-links a {
     color: #f4f4f4;
     letter-spacing: 3px;
-    font-size: 1.1em;
+    font-size: 1em;
     text-decoration: none;
 }
 
