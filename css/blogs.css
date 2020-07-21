@@ -1,0 +1,13 @@
+header {
+    background-color: #1A224B;
+}
+
+#blogs-container {
+    padding-top: 8vh;
+    background: red
+}
+
+.blog {
+    background-color: #ffbd59;
+    margin: 1em 0
+}
