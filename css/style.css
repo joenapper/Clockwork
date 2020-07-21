@@ -322,14 +322,15 @@ nav {
     color: #1a224b
 }
 
-.w-color {
+#steps h2 span {
     color: #f4f4f4
 }
 
 .step1,
 .step2,
 .step3 {
-    width: 80%
+    width: 80%;
+    border-bottom: 1px solid #1A224B
 }
 
 .step2 {
@@ -339,9 +340,13 @@ nav {
 .step1 p,
 .step2 p,
 .step3 p {
-    padding: 0 5%
+    padding: 0 5%;
 }
 
+.stepicon {
+    font-size: 1em;
+    color: #f4f4f4
+}
 
 /* Partners ---------------------------------- */
 #partners {
