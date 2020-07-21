@@ -147,7 +147,7 @@ nav {
 }
 
 /*Navbar Hamburger Menu*/
-@media screen and (max-width:768px) {
+@media screen and (max-width: 1400px) {
     body,
     html {
         margin: 0;
