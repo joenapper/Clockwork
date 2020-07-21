@@ -140,7 +140,6 @@ nav {
 
 .scrolled {
     min-height: 6vh;
-    /* background-color: rgba(28, 117, 188, 0.9); */
     background-color: #1A224B;
     opacity: 0.9;
     color: #fff;
@@ -221,8 +220,6 @@ nav {
 
 #particles-js {
     position: relative;
-    /* top: 0;
-    left: 0; */
     width: 100%;
     height: 60%;
     background: #1A224B;
@@ -233,16 +230,6 @@ nav {
     transform: translate(-50%, -50%);
     top: 97%;
     left: 50%;
-}
-
-.title {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); 
-    margin: 0; 
-    font-size: 4em;
-    color: #f4f4f4
 }
 
 #hero-text {
@@ -279,7 +266,6 @@ nav {
 /* Services ---------------------------------- */
 #services {
     background-color: #f4f4f4;
-    /* background-color: #1A224B; */
     color: #1A224B
 } 
 
@@ -301,7 +287,6 @@ nav {
 
 #service-select h3 {
     text-transform: uppercase;
-   
 }
 
 #service-select p {
