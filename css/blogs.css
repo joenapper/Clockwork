@@ -9,5 +9,17 @@ header {
 
 .blog {
     background-color: #ffbd59;
-    margin: 1em 0
+    margin: 1em 0;
+    display: flex;
+    height: 200px;
+}
+
+.blog-image-container {
+    width: 20%
+}
+
+.blog-image {
+    height: 100%;
+    width: 100%;
+    background-color: green
 }
