@@ -413,6 +413,20 @@ footer {
     color: #f4f4f4
 }
 
+footer a {
+    color: #f4f4f4;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+footer p {
+    font-size: 1em
+}
+
+footer span {
+    font-size: 1.2em
+}
+
 .footer {
     display: grid;
     grid-template-columns: repeat(2, 1fr)
