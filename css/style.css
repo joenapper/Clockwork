@@ -310,7 +310,12 @@ nav {
 
 /* Steps ---------------------------------- */
 #steps {
-    background-color: #ffbd59
+    background-color: #ffbd59;
+    color: #1a224b
+}
+
+.w-color {
+    color: #f4f4f4
 }
 
 .step1,
@@ -321,6 +326,12 @@ nav {
 
 .step2 {
     margin-left: 20%
+}
+
+.step1 p,
+.step2 p,
+.step3 p {
+    padding: 0 5%
 }
 
 
