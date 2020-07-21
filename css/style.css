@@ -301,13 +301,13 @@ nav {
     transform: scale(1.1);
 }
 
-/* Steps ---------------------------------- */
-#steps {
+/* process ---------------------------------- */
+#process {
     background-color: #ffbd59;
     color: #1a224b
 }
 
-#steps h2 span {
+#process h2 span {
     color: #f4f4f4
 }
 
