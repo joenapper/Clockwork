@@ -308,6 +308,14 @@ nav {
     margin: 10px 0
 }
 
+.service-card {
+    transition: transform .2s;
+}
+
+.service-card:hover {
+    transform: scale(1.1);
+}
+
 /* Steps ---------------------------------- */
 #steps {
     background-color: #ffbd59;
