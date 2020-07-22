@@ -334,18 +334,6 @@ nav {
     color: #f4f4f4
 }
 
-/* Partners ---------------------------------- */
-#partners {
-    background-color: #ffbd59;
-    display: flex
-}
-
-.partner {
-    height: 180px;
-    width: 180px;
-    border-radius: 50%
-}
-
 /* Contact ---------------------------------- */
 #contact {
     background-color: #f4f4f4
@@ -433,13 +421,12 @@ footer span {
     cursor: pointer;
 }
 
-.email-shortcut:hover {
-    color: #ffbd59
-}
-
+.email-shortcut:hover,
 .priv-pol:hover {
     color: #ffbd59
 }
+
+
 
 .footer {
     display: grid;
