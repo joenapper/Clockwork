@@ -21,15 +21,83 @@ header {
 }
 
 .blog-image-container {
-    width: 10%
+    max-width: 30%;
+    height: 100%;
 }
 
 .blogicon {
-    font-size: 8em;
-    padding: 10px 20px;
-    margin: 0 auto
+    font-size: 8em; 
+    padding: 10px 30px;
 }
 
-.blog-content {
-    margin-left: 2em
+/* Media Queries ------------------------------------------------------- */
+/*Tablet*/
+@media (min-width: 768px) and (max-width: 1024px) {
+    p {
+        font-size: 1em
+    }
+
+    .blogicon {
+        font-size: 4em; 
+        padding: 10px 20px;
+    }
+
+    .blog {
+        margin: 1em 0;
+    }
+
+    h3 {
+        margin-top: 0
+    }
+}
+
+/*Mobile*/
+@media screen and (max-width: 767px) {
+    p {
+        margin: 0;
+        font-size: 1em
+    }
+
+    h3 {
+        margin: 0
+    }
+
+    #blogs-container {
+        height: 70vh
+    }
+
+    .blog {
+        margin: 1em 0
+    }
+
+    .blog-content p {
+        display: none
+    }
+
+     .blogicon {
+        font-size: 2.5em; 
+        padding: 10px 20px;
+    }
+}
+
+@media screen and (max-width: 322px) {
+    p {
+        font-size: 0.8em
+    }
+
+    #blogs-container {
+        height: 64vh
+    }
+
+    .blog {
+        margin: .2em 0
+    }
+
+    .footer {
+        display: block
+    }
+
+    .priv-pol {
+        margin: 1em
+    }
 }
