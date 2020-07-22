@@ -1,0 +1,15 @@
+header {
+    background-color: #1A224B;
+}
+
+#privpolicy-container {
+    padding-top: 8vh;
+    height: 70vh;
+    text-align: center
+}
+
+.maintainance {
+    padding-top: 100px;
+    max-height: 70%;
+    max-width: 100%
+}
