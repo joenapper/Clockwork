@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Clockwork Media | Multi-Disiplined Design & Devolopment Company</title>
+    <!-- EmailJS API -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
 </head>
 <body>
     <!-- Header / Nav -->
@@ -117,7 +119,7 @@
     <!-- Contact -->
     <section id="contact">
         <h2 class="subheader center"><span class="main-color">Contact</span> Us</h2>
-            <form>
+            <form onsubmit="return sendMail(this);">
                 <input type="text" id="companyName" placeholder="Company / Name">
                 <input type="text" id="number" placeholder="Contact Number">
                 <input type="text" id="email" placeholder="Email">
@@ -149,5 +151,7 @@
     <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
     <script src="js/particles.js"></script>
     <script src="js/header.js"></script>
+    <script src="js/secret-email.js">
+    <script src="js/email.js">
 </body>
 </html>
