@@ -120,11 +120,11 @@
     <section id="contact">
         <h2 class="subheader center"><span class="main-color">Contact</span> Us</h2>
             <form onsubmit="return sendMail(this);">
-                <input type="text" name="name" id="companyName" placeholder="Company / Name">
-                <input type="text" name="number" id="number" placeholder="Contact Number">
-                <input type="text" name="email" id="email" placeholder="Email">
-                <textarea id="overview" name="project" placeholder="How can we help you?" cols="1" rows="1"></textarea>
-                <button class="card" type="submit">Send Message</button>
+                <input type="text" name="name" id="companyName" placeholder="Company / Name" required>
+                <input type="text" name="number" id="number" placeholder="Contact Number" required>
+                <input type="email" name="email" id="email" placeholder="Email" required>
+                <textarea id="overview" name="project" placeholder="How can we help you?" cols="1" rows="1" required></textarea>
+                <button id="submit-btn" class="card" type="submit">Send Message</button>
             </form>
     </section>
     <!-- End -->

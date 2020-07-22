@@ -8,6 +8,8 @@ function sendMail(contactForm) {
     .then(
         function(response) {
             console.log('success', response);
+            alert('Message Sent! We Will Contact You Shortly');
+            location.reload();
         },
         function(error) {
             console.log('failed', error);
