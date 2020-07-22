@@ -230,6 +230,7 @@ nav {
     transform: translate(-50%, -50%);
     top: 97%;
     left: 50%;
+    max-width: 80%
 }
 
 #hero-text {
@@ -307,8 +308,8 @@ nav {
     color: #1a224b
 }
 
-#process h2 span {
-    color: #f4f4f4
+#process h3 {
+    font-size: 2em
 }
 
 .step1,
@@ -524,5 +525,80 @@ footer span {
         max-width: 40%;
         margin-left: 60%;
         height: 70px
+    }
+}
+
+/*Mobile*/
+@media screen and (max-width: 767px) {
+    header,
+    #hero-text {
+        width: 80%;
+        padding: 0 10%;
+    }
+
+    section {
+        width: 80%;
+        padding: 20px 10%;
+    }
+
+    #particles-js {
+        height: 35%;
+    }
+
+    #hero-text p {
+        margin-top: 200px;
+        font-size: 1em
+    }
+
+    .subheader {
+        font-size: 2em;
+    }
+
+    .services-row {
+        padding-top: 20px
+    }
+
+    .services-row,
+    .services-row-2 {
+        display: block
+    }
+
+    .services-row-2 {
+        padding: 0
+    }
+
+    .services-row .card,
+    .services-row-2 .card {
+        margin-bottom: 2em
+    }
+
+    .services-row p,
+    .services-row-2 p {
+        margin: 0;
+    }
+
+    #process h3 {
+        font-size: 1.55em
+    }
+
+    #process p {
+        font-size: 1em
+    }
+
+    form button {
+        max-width: 60%;
+        margin-left: 40%
+    }
+
+    footer span {
+        font-size: 1em
+    }
+
+    footer p {
+        font-size: 0.7em
+    }
+
+    .iconbtn {
+        font-size: 1.2em;
     }
 }
