@@ -120,10 +120,10 @@
     <section id="contact">
         <h2 class="subheader center"><span class="main-color">Contact</span> Us</h2>
             <form onsubmit="return sendMail(this);">
-                <input type="text" id="companyName" placeholder="Company / Name">
-                <input type="text" id="number" placeholder="Contact Number">
-                <input type="text" id="email" placeholder="Email">
-                <textarea id="overview" placeholder="How can we help you?" cols="1" rows="1"></textarea>
+                <input type="text" name="name" id="companyName" placeholder="Company / Name">
+                <input type="text" name="number" id="number" placeholder="Contact Number">
+                <input type="text" name="email" id="email" placeholder="Email">
+                <textarea id="overview" name="project" placeholder="How can we help you?" cols="1" rows="1"></textarea>
                 <button class="card" type="submit">Send Message</button>
             </form>
     </section>
@@ -151,7 +151,7 @@
     <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
     <script src="js/particles.js"></script>
     <script src="js/header.js"></script>
-    <script src="js/secret-email.js">
-    <script src="js/email.js">
+    <script src="js/secret-email.js"></script>
+    <script src="js/email.js"></script>
 </body>
 </html>
