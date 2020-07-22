@@ -9,11 +9,29 @@ function sendMail(contactForm) {
         function(response) {
             console.log('success', response);
             alert('Message Sent! We Will Contact You Shortly');
-            location.reload();
         },
         function(error) {
             console.log('failed', error);
         }
     );
     return false;
+};
+
+// Clears Form
+const nameClear = document.querySelector('#companyName');
+const emailClear = document.querySelector('#email');
+const numberClear = document.querySelector('#number');
+const textareaClear = document.querySelector('textarea');
+const submitButton = document.querySelector('#submit-btn');
+
+submitButton.addEventListener('click', resetForm);
+
+function resetForm() {
+    // Reset Textarea
+    setTimeout(() => {
+        nameClear.value = '';
+        emailClear.value = '';
+        numberClear.value = '';
+        textareaClear.value = '';
+    }, 100);
 };
