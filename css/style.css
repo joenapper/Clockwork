@@ -390,10 +390,10 @@ textarea {
     color: #ffbd59
 }
 
-button {
+form button {
     height: 60px;
-    width: 20%;
-    margin-left: 80%; 
+    max-width: 30%;
+    margin-left: 80%;
     margin-top: 30px;
     background-color: #ffbd59;
     cursor: pointer;
@@ -494,4 +494,35 @@ footer span {
 /* Facebook Blue */
 .fa-facebook:hover {
     color: #3b5998
+}
+
+/* Media Queries ------------------------------------------------------- */
+/*Tablet*/
+@media (min-width: 768px) and (max-width: 1024px) {
+    #particles-js {
+        height: 50%;
+    }
+
+    #hero-text p {
+        margin-top: 140px
+    }
+
+    .services-row {
+        grid-template-columns: repeat(2, 1fr)
+    }
+
+    .service-web-dev {
+        position: relative;
+        left: 50%;
+    }
+
+    .services-row-2 {
+        padding: 0
+    }
+
+    form button {
+        max-width: 40%;
+        margin-left: 60%;
+        height: 70px
+    }
 }
